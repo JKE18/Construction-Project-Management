@@ -1,0 +1,159 @@
+.top{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.semi-top{
+    -fx-background-color: #efefef;
+    -fx-border-width: .2px .4px .8px .4px;
+}
+.logout{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.logout:hover{
+    -fx-background-color: #ddd;
+}
+
+.nav-form {
+    -fx-background-color: linear-gradient(to bottom right, #dd550d, #edd00e);
+}
+
+.nav-btn {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: #fff;
+    -fx-alignment: CENTER;
+    /*-fx-alignment: CENTER-LEFT;*/
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0.3, 1, 1);
+}
+
+.nav-btn:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-text-fill: #ffffff;
+}
+
+.nav-btn:pressed {
+    -fx-background-color: rgba(255, 255, 255, 0.4);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.5, 1, 1);
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0);
+}
+.background{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.card{
+    -fx-background-color: linear-gradient(to right, #e17b0c, #ffb700);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: linear-gradient(to right, #e17b0c, #ffb700);
+}
+
+#listtodo {
+    -fx-background-color: linear-gradient(to right, #dd750d, #edae0e);
+    -fx-border-color: linear-gradient(to right, #dd750d, #edae0e);
+    -fx-border-radius: 5;
+    -fx-padding: 10px;
+    -fx-spacing: 5px;
+}
+#listtodo .list-cell {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+#listtodo .list-cell:selected {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-weight: bold;
+}
+#reportListView {
+    -fx-background-color: linear-gradient(to left, #dd750d, #edae0e);
+    -fx-border-color: linear-gradient(to left, #dd750d, #edae0e);
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+}
+
+#reportListView .list-cell {
+    -fx-background-color: #ffffff;
+    -fx-padding: 6;
+    -fx-border-color: #eee;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-font-size: 11;
+    -fx-text-fill: #333;
+}
+
+#reportListView .list-cell:selected {
+    -fx-background-color: #b6b6b6;
+    -fx-border-color: #b6b6b6;
+    -fx-font-weight: bold;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom right, #efefef, #eee);
+    -fx-border-color: linear-gradient(to right, #e17b0c, #ffb700);
+    -fx-border-width: 0.8;
+    -fx-border-radius: 4;
+    -fx-font-family: "Tahoma";
+}
+.textfield:focused{
+    -fx-border-width: 1.8;
+    -fx-background-color: #fff;
+}
+.search{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #dd550d, #edd00e);
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-padding: 0 0 0 28;
+}
+
+.search:focused{
+    -fx-border-width: 2;
+}
+
+.import{
+    -fx-background-color: #eee;
+    -fx-text-fill: black;
+}
+
+.button{
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-cursor: hand;
+}
+.project-title-raport-l{
+    -fx-background-color: linear-gradient(to right, #d35028, #edbe0e);
+    -fx-border-color: linear-gradient(to right, #d35028, #edbe0e);
+    -fx-border-radius: 7 0 0;
+    -fx-background-radius: 7 0 0 0;
+    -fx-padding: 2;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 1, 1);
+    -fx-text-fill: white;
+
+}
+
+.project-title-raport-p{
+    -fx-background-color: linear-gradient(to left, #d35528, #edbe0e);
+    -fx-border-color: linear-gradient(to left, #d35528, #edbe0e);
+    -fx-border-radius: 0 7 0 0;
+    -fx-background-radius: 0 7 0 0;
+    -fx-padding: 2;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 1, 1);
+    -fx-text-fill: white;
+
+}
