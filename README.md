@@ -23,27 +23,34 @@ Construction Project Management is a window application for managing a construct
 
 ## Images of program
 
-- Login panel:
+**Login panel:**
+
 ![mainlogin](photos/1.png)
 
 Window for two-factor verification when logging in via a code sent to email:
 ![codeverife](photos/2.png)
 ![email](photos/9.png)
 
-- Registration:
+**Registration:**
+
 ![register](photos/3.png)
 
-Home page:
+**Home page:**
+
 ![home](photos/4.png)
 
-Employee list management:
+**Employee list management:**
+
 ![employee](photos/5.png)
 
-Construction project management:
+**Construction project management:**
+
 ![project](photos/6.png)
 
-Project cost estimate:
+**Project cost estimate:**
+
 ![estimate](photos/7.png)
 
-Reports with company charts:
+**Reports with company charts:**
+
 ![raport](photos/8.png)
